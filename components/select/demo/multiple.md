@@ -45,7 +45,7 @@ ReactDOM.render(
       disabled
       style={{ width: '100%' }}
       placeholder="Please select"
-      defaultValue={['a10', 'c12']}
+      defaultValue={['Mammography', 'Osteoporosis screenings', 'Pap smear', 'Prostate Specific Antigen (for prostate cancer)']}
       onChange={handleChange}
     >
       {children}
